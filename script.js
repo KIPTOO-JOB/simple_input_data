@@ -79,22 +79,16 @@ form.addEventListener("submit", (event) => {
 	const marks = document.getElementById("marks").value;
 	const name = document.getElementById("name").value;
 
-	if (!name) {
-		result.textContent = "Please enter your name.";
-	} else if (!marks) {
-		result.textContent = "Please enter a valid number.";
-	} else {
-		const grade =
-			marks > 79
-				? "A"
-				: marks >= 60
-				? "B-"
-				: marks >= 59
-				? "C-"
-				: marks >= 40
-				? "D"
-				: "E";
-		result.textContent = `${name} You scored ${marks}. Your grade is ${grade}.`;
-		console.log(result);
-	}
+	const grade =
+		marks > 79
+			? "A"
+			: marks >= 60
+			? "B-"
+			: marks >= 59
+			? "C-"
+			: marks >= 40
+			? "D"
+			: "E";
+	result.textContent = `${name} You scored ${marks}. Your grade is ${grade}.`;
+	console.log(result);
 });
