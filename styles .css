@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+
+* {
+	margin: 0;
+	/* background: #000; */
+	font-family: "Share Tech", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: large;
+}
+
+.center {
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background: #000;
+}
+.card {
+	background: white;
+	padding: 100px;
+	border-radius: 30px;
+	box-shadow: 40px;
+}
+#marksForm {
+	display: flex;
+	flex-direction: column;
+}
+.div1 {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+.div2 {
+	display: flex;
+	align-items: center;
+	padding-bottom: 20px;
+}
+label {
+	padding-right: 9px;
+}
+input {
+	padding: 8px;
+}
+p {
+	padding-top: 30px;
+}
+button {
+	color: black;
+	font-weight: bold;
+	font-size: larger;
+	padding: 4px;
+	border-radius: 5px;
+	box-shadow: gray;
+	border: none;
+	padding: 10px;
+}
