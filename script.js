@@ -90,5 +90,5 @@ form.addEventListener("submit", (event) => {
 			? "D"
 			: "E";
 	result.textContent = `${name} You scored ${marks}. Your grade is ${grade}.`;
-	console.log(result);
+	// console.log(result);
 });
