@@ -3,7 +3,7 @@ const result = document.getElementById("result");
 
 form.addEventListener("submit", (event) => {
 	event.preventDefault();
-	alert("yoo");
+	// alert("yoo");
 	const speed = document.getElementById("speed").value;
 
 	const points =
