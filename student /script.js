@@ -79,16 +79,7 @@ form.addEventListener("submit", (event) => {
 	const marks = document.getElementById("marks").value;
 	const name = document.getElementById("name").value;
 
-	const grade =
-		marks > 79
-			? "A"
-			: marks >= 60
-			? "B-"
-			: marks >= 59
-			? "C-"
-			: marks >= 40
-			? "D"
-			: "E";
+	x
 	result.textContent = `${name} You scored ${marks}. Your grade is ${grade}.`;
 	// console.log(result);
 });

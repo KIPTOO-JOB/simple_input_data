@@ -11,3 +11,4 @@ Functions:
 3. calculateNhifDeduction(grossSalary): Calculates the NHIF deduction based on the gross salary brackets.
 4. calculatePaye(grossSalary, nssfDeduction): Calculates the PAYE (tax) based on the taxable income (gross salary minus NSSF deduction).
 5. calculateNetSalary(basicSalary, benefits): Calculates the net salary by calling the above functions and deducting NSSF, NHIF, and PAYE from the gross salary.
+ 
